@@ -28,23 +28,27 @@
         async function decompose() {
             const inputText = document.getElementById('inputText').value;
             if (!inputText) {
-                alert('평플하자!');
+                alert('문장을 입력해주세요!');
                 return;
             }
 
-            const response = await fetch('https://asterumie-converter.vercel.app/', {
+            try {
+                const response = await fetch('/api/proxy', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({ input: inputText })
-            });
+                });
 
-            if (response.ok) {
+                if (response.ok) {
                 const data = await response.json();
                 document.getElementById('result').innerText = data.output;
-            } else {
+                } else {
                 console.error('응답 에러:', response.statusText);
+                }
+            } catch (error) {
+                console.error('요청 오류:', error);
             }
         }
     </script>
