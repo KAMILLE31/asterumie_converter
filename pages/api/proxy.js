@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   if (req.method === 'POST') {
     try {
       const { input } = req.body;
-      const response = await axios.post('https://7217d6c6-9a1c-4d85-95ed-12a571faeb4d-00-28sglkbljybma.picard.replit.dev/', { input });
+      const response = await axios.post('https://asterumie-converter.vercel.app/', { input });
       res.setHeader('Access-Control-Allow-Origin', '*');
       res.status(200).json(response.data);
     } catch (error) {
