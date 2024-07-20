@@ -42,13 +42,5 @@ export default async function handler(req, res) {
       
       for (const char of inputStr) {
           if (char >= '가' && char <= '힣') {
-              const { chosung, jungsung, jongsung } = decomposeHangul(char);
-              result += chosung + jungsung + (jongsung !== ' ' ? jongsung : '');
-          } else {
-              result += char; // 한글이 아닌 문자(공백 포함)를 그대로 추가
-          }
-      }
-      
-      return result;
-  }
+              const { chosung, jung
   
