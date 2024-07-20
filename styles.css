@@ -34,17 +34,18 @@ label {
 }
 
 input[type="text"] {
-    width: 50px;
+    width: 300px;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #fa7fbf;
     border-radius: 4px;
     color: #0056b3;
+    vertical-align: middle;
 }
 
 button {
     display: block;
-    width: 30px;
+    width: 100px;
     padding: 10px;
     border: none;
     border-radius: 4px;
@@ -52,6 +53,7 @@ button {
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button:hover {
