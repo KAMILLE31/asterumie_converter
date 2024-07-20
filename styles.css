@@ -11,8 +11,8 @@ body {
 
 .result{
     margin: 0 auto;
-    padding: 20px;
-    border-color: #0056b3;
+    padding: 0 20px;
+    border: 2px solid #0056b3;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     height: 100vh; /* 화면 전체 높이 */
@@ -36,7 +36,7 @@ label {
 input[type="text"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #3c5a41;
+    border: 2px solid #4d9f5a;
     border-radius: 4px;
     text-align: center;
 }
