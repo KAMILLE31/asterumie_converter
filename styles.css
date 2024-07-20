@@ -1,3 +1,12 @@
+font-family{ 'CustomFont';
+            src: url('asterumie.ttf') format('truetype'); /* 업로드한 폰트 파일 경로 */
+}
+
+.custom-font {
+    font-family: 'CustomFont';
+    white-space: pre-wrap; /* 공백을 유지하기 위해 white-space 속성을 설정 */
+}
+
 body {
     background-color: #ffffff;
     margin: 0;
@@ -48,10 +57,3 @@ button:hover {
 }
 }
 
-font-family: 'CustomFont';
-            src: url('asterumie.ttf') format('truetype'); /* 업로드한 폰트 파일 경로 */
-        }
-
-.custom-font {
-    font-family: 'CustomFont';
-    white-space: pre-wrap; /* 공백을 유지하기 위해 white-space 속성을 설정 */
