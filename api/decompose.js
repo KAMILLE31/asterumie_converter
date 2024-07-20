@@ -4,6 +4,12 @@ export default async function handler(req, res) {
     if (req.method === 'POST') {
       try {
         const { input } = req.body;
+  
+        // Check if 'input' exists in the request body
+        if (!input) {
+          return res.status(400).json({ message: 'No input provided' });
+        }
+  
         const decomposedStr = decomposeString(input);
         res.status(200).json({ output: decomposedStr });
       } catch (error) {
