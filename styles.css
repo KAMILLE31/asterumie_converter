@@ -32,10 +32,11 @@ h1 {
 
 label {
     display: block;
-    margin: 10px 0 5px;
+    margin: 0 auto;
 }
 
 input[type="text"] {
+    align-items: center;
     width: 800px;
     padding: 10px;
     border: 1px solid #fa7fbf;
@@ -61,6 +62,6 @@ button:hover {
 }
 }
 
-p#result.custom-font {
+p {
     margin: 20pt;
 }
