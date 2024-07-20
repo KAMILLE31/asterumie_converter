@@ -36,11 +36,11 @@ label {
 }
 
 input[type="text"] {
-    width: 1000px;
+    width: 800px;
     padding: 10px;
     border: 1px solid #fa7fbf;
     border-radius: 4px;
-    margin: 0 auto;
+    text-align: center;
 }
 
 button {
@@ -62,5 +62,5 @@ button:hover {
 }
 
 p#result.custom-font {
-    padding: 20pt;
+    margin: 20pt;
 }
