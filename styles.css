@@ -1,5 +1,6 @@
-font-family{ 'CustomFont';
-            src: url('asterumie.ttf') format('truetype'); /* 업로드한 폰트 파일 경로 */
+@font-face {
+    font-family: 'CustomFont';
+    src: url('asterumie.ttf') format('truetype'); 
 }
 
 .custom-font {
