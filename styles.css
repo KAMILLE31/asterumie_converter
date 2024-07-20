@@ -27,7 +27,7 @@ h1 {
 label {
     font-size: 20px;
     font-weight: bold;
-    color: #3c5a41;
+    color: #b700ff;
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -37,7 +37,7 @@ label {
 input[type="text"] {
     width: 100%;
     padding: 10px;
-    border: 1px solid #fa7fbf;
+    border: 1px solid #3c5a41;
     border-radius: 4px;
     text-align: center;
 }
@@ -48,7 +48,7 @@ button {
     padding: 10px;
     border: none;
     border-radius: 4px;
-    background-color: #b700ff;
+    background-color: #fa7fbf;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
